@@ -43,8 +43,11 @@ PLANT ||--|{ SAMPLE_PLANT: has
 
 	PLANT {
 		int id
-		varchar name
+		varchar scientific_name
 		boolean is_native
 		boolean is_invasive
+		varchar common_name
+		varchar img_url
+		text description
 	}
 ```
