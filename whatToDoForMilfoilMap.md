@@ -30,4 +30,17 @@ df20XX.head()
 10. Search for "create table b dataframes" and add this year to that list too
 11. search for `table_b_df = pd.concat` and add year there
 12. Search for `final_abundance_df.to_csv` and change year in file name
-13. Run all & look for `output/Final_Abundance_2008_20xx` in the file system, make sure it's correct by opening in excel
+13. Run all & look for `output/Final_Abundance_2008_20xx.xlsx` in the file system, make sure it's correct by opening in excel
+14. Find or `output/milfoil/table_B_20xx.csv` in the file system, open it and make sure it looks good. Keep it open for the next step.
+
+## Then open the milfoil-viz repo
+
+The code I want to run here is in `animated_milfoil.ipynb`
+
+Open the file `milfoil_tableB_all_years_to_2024_cleaned.csv` or similar (most up to date), resave with new year in name, and add the rake toss data from the file in the other repo to columns:
+
+1. copy column A & B contents (id & sample point) to the bottom of column A & B of the csv
+2. copy column C to column E
+3. fill in columns C & D with the latitude and longitude entried from a previous year's corresponding sample points 
+4. fill in column F with this year all the way down
+5. update file name in first section in `animated_milfoil.ipynb`, run all and play map to check!
