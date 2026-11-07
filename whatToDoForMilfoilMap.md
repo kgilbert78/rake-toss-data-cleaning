@@ -41,6 +41,6 @@ Open the file `milfoil_tableB_all_years_to_2024_cleaned.csv` or similar (most up
 
 1. copy column A & B contents (id & sample point) to the bottom of column A & B of the csv
 2. copy column C to column E
-3. fill in columns C & D with the latitude and longitude entried from a previous year's corresponding sample points 
+3. fill in columns C & D with the latitude and longitude ~~entered from a previous year's corresponding sample points~~ from the downloaded spreadsheet fields deduplicated. (Copy & paste Sample Points, Latitude & Longitude from TableA_PercentSpecies into new sheet, Select All, Data tab, Remove Duplicates icon)
 4. fill in column F with this year all the way down
 5. update file name in first section in `animated_milfoil.ipynb`, run all and play map to check!
